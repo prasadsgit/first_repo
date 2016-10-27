@@ -1,0 +1,24 @@
+From fea8aab91000b395e51545649091d783c259a104 Mon Sep 17 00:00:00 2001
+From: venkat prasad <prasadsgit@gmail.com>
+Date: Thu, 27 Oct 2016 03:09:32 -0700
+Subject: [PATCH] added strctc
+
+---
+ src/string_operations.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/string_operations.c b/src/string_operations.c
+index f3c37a5..794801e 100644
+--- a/src/string_operations.c
++++ b/src/string_operations.c
+@@ -29,5 +29,7 @@ int main(void)
+    
+    printf("%s\n", my_strcpy(p1, "Hello, World-- DOT !!!"));
+ 
++   printf("patch createion);
++
+    return 0;
+ }
+-- 
+1.8.4
+

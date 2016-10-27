@@ -7,7 +7,7 @@ size_t my_strlen(const char *s)
 >>>>>>> 46a7ff76714bd7183ac1be20812b2a86a2255a75:string.c
 {
    char *p = s;
-
+	new _bracnh testing
    while (*p)
       ++p;
 
