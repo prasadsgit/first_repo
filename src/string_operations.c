@@ -29,5 +29,7 @@ int main(void)
    
    printf("%s\n", my_strcpy(p1, "Hello, World-- DOT !!!"));
 
+   printf("patch createion);
+
    return 0;
 }
